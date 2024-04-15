@@ -1,3 +1,6 @@
+// Evan wrote most of this: https://github.com/evandvance
+// (with some bug fixes :))
+
 import jwt, { Secret, JwtPayload } from 'jsonwebtoken';
 import { Request, Response, NextFunction } from 'express';
 
